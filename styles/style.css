@@ -100,8 +100,109 @@
      font-weight: 400;
  }
 
- .banner-text button {
-    font-family: Inter;
-    font-size: 20px;
-    text-transform: uppercase;
-}
+ .main-button {
+     font-family: Inter;
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+
+ .main-point {
+     background-color: rgba(255, 0, 0, 0.10);
+     width: 1320px;
+     height: 482px;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 100px;
+ }
+
+ .red {
+     color: #F00;
+     text-align: center;
+ }
+
+ .main-point-text {
+     color: #070211;
+     font-family: Inter;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 56px;
+ }
+
+ .btn-primery button {
+     border-radius: 8px;
+     background: #F00;
+     border: 0;
+     font-size: 20px;
+     font-weight: 700;
+     color: white;
+     padding: 15px 35px;
+ }
+
+ .skill {
+     width: 1320px;
+     height: 500px;
+     background: #FFF;
+     display: flex;
+
+     margin: 120px auto;
+     justify-content: space-around;
+     column-gap: 70px;
+ }
+
+ .skill-container h3 {
+     color: #F00;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     font-family: Inter;
+     font-size: 24px;
+     margin-top: 70px;
+ }
+
+ .skill-container h1 {
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+     font-weight: 900;
+     margin-top: -10px;
+ }
+
+ .skill-container p {
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+ }
+
+ .info h1 {
+     color: #F00;
+     font-family: Inter;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .info p {
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 32px;
+     margin-top: -30px;
+ }
+
+ .info img {
+     width: 140px;
+     height: 140px;
+     margin-bottom: 0;
+ }
+
+ .photo {
+     width: 364.844px;
+     height: 364.844px;
+     border-radius: 463px;
+     border: 15px solid #F00;
+     padding: 20px;
+ }
